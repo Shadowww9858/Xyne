@@ -102,7 +102,7 @@ a {
 
 .signin-button {
   display: block;
-  background-color: #e50914;
+  background-color: #FF8C00;
   width: 84px;
   height: fit-content;
   color: #fff;
@@ -231,7 +231,7 @@ a {
 .optform-button {
   width: fit-content;
   height: 60px;
-  background: #e50914;
+  background: #FF8C00;
   color: #fff;
   text-transform: uppercase;
   padding: 0 32px;
