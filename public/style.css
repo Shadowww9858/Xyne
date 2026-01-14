@@ -96,8 +96,8 @@ a {
 }
 
 .logo {
-  height: 32px;
-  width: 108px;
+  height: 45px;
+  width: auto;
 }
 
 .signin-button {
@@ -198,7 +198,7 @@ a {
 }
 
 .play-button:hover {
-  background: #ff1e1e;
+  background: ##FF8C00;
   color: white;
 }
 
@@ -258,7 +258,7 @@ a {
 }
 
 .optform-button-image img:hover {
-  background: #f40612;
+  background: #ff9d26;
 }
 
 .optform-text {
@@ -517,7 +517,7 @@ a {
 }
 
 .sign-form-Button {
-  background: #e50914;
+  background: #FF8C00;
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
@@ -596,7 +596,13 @@ a {
 }
 
 .card-wrapper:hover {
+  transform: scale(1.25);.card-wrapper:hover {
   transform: scale(1.25);
+  z-index: 99;
+  outline: 3px solid #FF8C00; /* Adds the brand color outline */
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.4); /* Adds an orange glow */
+  
+ 
 }
 
 .card-image {
