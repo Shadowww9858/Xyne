@@ -1,17 +1,1 @@
-import Firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
 
-// Paste YOUR config here
-const config = {
-  apiKey: "AIzaSyAcr-M7onrjSRSvmXdU_mZWvYynB-t8hUY",
-  authDomain: "xyne-ott.firebaseapp.com",
-  projectId: "xyne-ott",
-  storageBucket: "xyne-ott.firebasestorage.app",
-  messagingSenderId: "796053964951",
-  appId: "1:796053964951:web:9293259c096cb9276141d2"
-};
-
-const firebase = Firebase.initializeApp(config);
-
-export { firebase };
